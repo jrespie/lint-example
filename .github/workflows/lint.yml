@@ -21,6 +21,6 @@ jobs:
 
       - name: Run linters
         uses: wearerequired/lint-action@v1
-        continue_on_error: false
+        continue-on-error: false
         with:
           eslint: true
